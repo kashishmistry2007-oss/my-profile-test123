@@ -1,1 +1,270 @@
-<h1> Hello World from git hub page </h1>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Kashish Mistry | IT Engineering Student</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            background: #f4f6fb;
+            color: #182033;
+            line-height: 1.6;
+        }
+
+        .container {
+            width: 90%;
+            max-width: 1100px;
+            margin: 40px auto;
+            background: white;
+            border-radius: 25px;
+            overflow: hidden;
+            box-shadow: 0 15px 45px rgba(0,0,0,0.12);
+        }
+
+        /* HERO SECTION */
+        .hero {
+            padding: 55px;
+            background: linear-gradient(
+                135deg,
+                #111827,
+                #243b73,
+                #6366f1
+            );
+
+            color: white;
+
+            display: flex;
+            align-items: center;
+            gap: 35px;
+        }
+
+        .profile-circle {
+            width: 130px;
+            height: 130px;
+
+            border-radius: 50%;
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            font-size: 42px;
+            font-weight: bold;
+
+            background: rgba(255,255,255,0.15);
+            border: 2px solid rgba(255,255,255,0.5);
+        }
+
+        .hero h1 {
+            font-size: 48px;
+            margin-bottom: 5px;
+        }
+
+        .hero h3 {
+            font-size: 20px;
+            color: #dce5ff;
+            font-weight: normal;
+        }
+
+        .hero p {
+            margin-top: 15px;
+            max-width: 700px;
+            color: #eef2ff;
+        }
+
+        /* CONTENT */
+        .content {
+            padding: 45px 55px;
+        }
+
+        .section {
+            margin-bottom: 40px;
+        }
+
+        .section h2 {
+            font-size: 25px;
+            margin-bottom: 15px;
+            color: #1e2a4a;
+        }
+
+        .section h2 span {
+            color: #6366f1;
+        }
+
+        .about {
+            color: #596579;
+            font-size: 16px;
+        }
+
+        /* SKILLS */
+        .skills {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+
+        .skill {
+            background: #eef0ff;
+            color: #4549a8;
+            padding: 9px 16px;
+            border-radius: 30px;
+            font-size: 14px;
+            font-weight: bold;
+        }
+
+        /* CARDS */
+        .cards {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 18px;
+        }
+
+        .card {
+            background: #fafbfe;
+            border: 1px solid #e5e9f2;
+            padding: 22px;
+            border-radius: 18px;
+        }
+
+        .card h3 {
+            color: #222c46;
+            margin-bottom: 8px;
+        }
+
+        .card p {
+            color: #667085;
+            font-size: 14px;
+        }
+
+        /* PROJECT */
+        .project {
+            background: #fafbfe;
+            border-left: 5px solid #6366f1;
+            padding: 20px;
+            border-radius: 0 15px 15px 0;
+        }
+
+        .project h3 {
+            margin-bottom: 8px;
+            color: #222c46;
+        }
+
+        .project p {
+            color: #667085;
+            font-size: 14px;
+        }
+
+        /* FOOTER */
+        footer {
+            background: #111827;
+            color: #cbd5e1;
+
+            padding: 25px 55px;
+
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
+
+        footer strong {
+            color: white;
+        }
+
+        /* MOBILE */
+        @media(max-width: 750px) {
+
+            .hero {
+                flex-direction: column;
+                text-align: center;
+                padding: 40px 25px;
+            }
+
+            .hero h1 {
+                font-size: 36px;
+            }
+
+            .content {
+                padding: 35px 25px;
+            }
+
+            .cards {
+                grid-template-columns: 1fr;
+            }
+
+            footer {
+                padding: 25px;
+                gap: 10px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="container">
+
+    <!-- HERO -->
+    <section class="hero">
+
+        <div class="profile-circle">
+            KM
+        </div>
+
+        <div>
+            <h1>Kashish Mistry</h1>
+
+            <h3>
+                2nd Year IT Engineering Student
+            </h3>
+
+            <p>
+                Aspiring software developer interested in programming,
+                web development, Data Structures & Algorithms,
+                AI-powered applications and technology projects.
+            </p>
+        </div>
+
+    </section>
+
+
+    <!-- MAIN CONTENT -->
+    <div class="content">
+
+        <!-- ABOUT -->
+        <section class="section">
+
+            <h2>
+                About <span>Me</span>
+            </h2>
+
+            <p class="about">
+                I am an Information Technology Engineering student
+                building my foundation in programming and software
+                development. I enjoy learning by creating practical
+                projects, improving problem-solving skills and exploring
+                technologies that can solve real-world problems.
+            </p>
+
+        </section>
+
+
+        <!-- SKILLS -->
+        <section class="section">
+
+            <h2>
+                Core <span>Skills</span>
+            </h2>
+
+            <div class="skills">
+
+                <div class="skill">C</div>
+                <div class="skill">
